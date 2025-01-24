@@ -1,0 +1,110 @@
+    |--program
+    |    |--program____part1
+    |    |    |--tokenNAME__program_name__tokenSEMICOLON__tokenBODY
+    |    |    |    |--tokenNAME__program_name
+    |    |    |    |    |--tokenNAME
+    |    |    |    |    |    |--"Program"
+    |    |    |    |    |--program_name
+    |    |    |    |    |    |--"pROG"
+    |    |    |    |--tokenSEMICOLON__tokenBODY
+    |    |    |    |    |--tokenSEMICOLON
+    |    |    |    |    |    |--";"
+    |    |    |    |    |--tokenBODY
+    |    |    |    |    |    |--"Start"
+    |    |    |--tokenDATA__declaration
+    |    |    |    |--tokenDATA
+    |    |    |    |    |--"Var"
+    |    |    |    |--declaration
+    |    |    |    |    |--value_type
+    |    |    |    |    |    |--"Int_4"
+    |    |    |    |    |--ident
+    |    |    |    |    |    |--"aAAA"
+    |    |--program____part2
+    |    |    |--tokenSEMICOLON
+    |    |    |    |--";"
+    |    |    |--statement____iteration_after_two__tokenEND
+    |    |    |    |--statement____iteration_after_two
+    |    |    |    |    |--statement
+    |    |    |    |    |    |--input__first_part
+    |    |    |    |    |    |    |--tokenGET
+    |    |    |    |    |    |    |    |--"Scan"
+    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |--input__second_part
+    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |--"aAAA"
+    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |--statement
+    |    |    |    |    |    |--tokenWHILE__expression__statement_in_while_body____iteration_after_two
+    |    |    |    |    |    |    |--tokenWHILE__expression
+    |    |    |    |    |    |    |    |--tokenWHILE
+    |    |    |    |    |    |    |    |    |--"While"
+    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |--"aAAA"
+    |    |    |    |    |    |    |    |    |--binary_action
+    |    |    |    |    |    |    |    |    |    |--binary_operator
+    |    |    |    |    |    |    |    |    |    |    |--"Ge"
+    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |--"1"
+    |    |    |    |    |    |    |--statement_in_while_body____iteration_after_two
+    |    |    |    |    |    |    |    |--statement_in_while_body
+    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |--"aAAA"
+    |    |    |    |    |    |    |    |    |--rl_expression
+    |    |    |    |    |    |    |    |    |    |--tokenRLBIND
+    |    |    |    |    |    |    |    |    |    |    |--"<-"
+    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |--"aAAA"
+    |    |    |    |    |    |    |    |    |    |    |--binary_action
+    |    |    |    |    |    |    |    |    |    |    |    |--binary_operator
+    |    |    |    |    |    |    |    |    |    |    |    |    |--"--"
+    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |--"1"
+    |    |    |    |    |    |    |    |--statement_in_while_body____iteration_after_two
+    |    |    |    |    |    |    |    |    |--statement_in_while_body
+    |    |    |    |    |    |    |    |    |    |--tokenIF__tokenGROUPEXPRESSIONBEGIN__expression__tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |    |--tokenIF__tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |    |    |    |    |--tokenIF
+    |    |    |    |    |    |    |    |    |    |    |    |    |--"If"
+    |    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |    |    |    |--expression__tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"aAAA"
+    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_operator
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"Mod"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"2"
+    |    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |    |    |    |    |    |--body_for_true
+    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_body
+    |    |    |    |    |    |    |    |    |    |    |    |--tokenCONTINUE
+    |    |    |    |    |    |    |    |    |    |    |    |    |--"Continue"
+    |    |    |    |    |    |    |    |    |    |    |    |--tokenWHILE
+    |    |    |    |    |    |    |    |    |    |    |    |    |--"While"
+    |    |    |    |    |    |    |    |    |    |    |--tokenSEMICOLON
+    |    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |    |--statement_in_while_body
+    |    |    |    |    |    |    |    |    |    |--output__first_part
+    |    |    |    |    |    |    |    |    |    |    |--tokenPUT
+    |    |    |    |    |    |    |    |    |    |    |    |--"Print"
+    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |    |    |--output__second_part
+    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |--"aAAA"
+    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |    |--tokenEND__tokenWHILE
+    |    |    |    |    |    |    |--tokenENDWHILE_END
+    |    |    |    |    |    |    |    |--"End"
+    |    |    |    |    |    |    |--tokenENDWHILE_WHILE
+    |    |    |    |    |    |    |    |--"While"
+    |    |    |    |--tokenEND
+    |    |    |    |    |--"Finish"

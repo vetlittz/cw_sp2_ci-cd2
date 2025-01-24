@@ -1,0 +1,206 @@
+    |--program
+    |    |--program____part1
+    |    |    |--tokenNAME__program_name__tokenSEMICOLON__tokenBODY
+    |    |    |    |--tokenNAME__program_name
+    |    |    |    |    |--tokenNAME
+    |    |    |    |    |    |--"Program"
+    |    |    |    |    |--program_name
+    |    |    |    |    |    |--"pROG"
+    |    |    |    |--tokenSEMICOLON__tokenBODY
+    |    |    |    |    |--tokenSEMICOLON
+    |    |    |    |    |    |--";"
+    |    |    |    |    |--tokenBODY
+    |    |    |    |    |    |--"Start"
+    |    |    |--tokenDATA__declaration
+    |    |    |    |--tokenDATA
+    |    |    |    |    |--"Var"
+    |    |    |    |--declaration
+    |    |    |    |    |--value_type__ident
+    |    |    |    |    |    |--value_type
+    |    |    |    |    |    |    |--"Int_4"
+    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |--"aAAA"
+    |    |    |    |    |--other_declaration_ident____iteration_after_one
+    |    |    |    |    |    |--other_declaration_ident
+    |    |    |    |    |    |    |--tokenCOMMA
+    |    |    |    |    |    |    |    |--","
+    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |--"bBBB"
+    |    |    |    |    |    |--other_declaration_ident____iteration_after_one
+    |    |    |    |    |    |    |--tokenCOMMA
+    |    |    |    |    |    |    |    |--","
+    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |--"cCCC"
+    |    |--program____part2
+    |    |    |--tokenSEMICOLON
+    |    |    |    |--";"
+    |    |    |--statement____iteration_after_two__tokenEND
+    |    |    |    |--statement____iteration_after_two
+    |    |    |    |    |--statement
+    |    |    |    |    |    |--input__first_part
+    |    |    |    |    |    |    |--tokenGET
+    |    |    |    |    |    |    |    |--"Scan"
+    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |--input__second_part
+    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |--"aAAA"
+    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |--statement____iteration_after_two
+    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |--input__first_part
+    |    |    |    |    |    |    |    |--tokenGET
+    |    |    |    |    |    |    |    |    |--"Scan"
+    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |--input__second_part
+    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |--"bBBB"
+    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |    |--statement____iteration_after_two
+    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |--input__first_part
+    |    |    |    |    |    |    |    |    |--tokenGET
+    |    |    |    |    |    |    |    |    |    |--"Scan"
+    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |--input__second_part
+    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |--"cCCC"
+    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |    |    |--statement____iteration_after_two
+    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |--tokenIF__tokenGROUPEXPRESSIONBEGIN__expression__tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |--tokenIF__tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |    |    |    |--tokenIF
+    |    |    |    |    |    |    |    |    |    |    |    |--"If"
+    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |    |    |--expression__tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |--"aAAA"
+    |    |    |    |    |    |    |    |    |    |    |    |--binary_action
+    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_operator
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"Eg"
+    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"bBBB"
+    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |    |    |    |    |--body_for_true__body_for_false
+    |    |    |    |    |    |    |    |    |    |--body_for_true
+    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |    |    |--body_for_false
+    |    |    |    |    |    |    |    |    |    |    |--tokenELSE__statement_in_while_body
+    |    |    |    |    |    |    |    |    |    |    |    |--tokenELSE
+    |    |    |    |    |    |    |    |    |    |    |    |    |--"Else"
+    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenGOTO
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"Goto"
+    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"cALU"
+    |    |    |    |    |    |    |    |    |    |    |--tokenSEMICOLON
+    |    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |--statement____iteration_after_two
+    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |--tokenGOTO
+    |    |    |    |    |    |    |    |    |    |    |--"Goto"
+    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |--"bALU"
+    |    |    |    |    |    |    |    |    |--statement____iteration_after_two
+    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |--"cALU"
+    |    |    |    |    |    |    |    |    |    |    |--tokenCOLON
+    |    |    |    |    |    |    |    |    |    |    |    |--":"
+    |    |    |    |    |    |    |    |    |    |--statement____iteration_after_two
+    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |--output__first_part
+    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenPUT
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"Print"
+    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |    |    |    |    |--output__second_part
+    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"0"
+    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |    |    |    |    |    |    |--statement____iteration_after_two
+    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenGOTO
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"Goto"
+    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"eNAS"
+    |    |    |    |    |    |    |    |    |    |    |    |--statement____iteration_after_two
+    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"bALU"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenCOLON
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--":"
+    |    |    |    |    |    |    |    |    |    |    |    |    |--statement____iteration_after_two
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenIF__tokenGROUPEXPRESSIONBEGIN__expression__tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenIF__tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenIF
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"If"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression__tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--left_expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"aAAA"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_action
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--binary_operator
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"Eg"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"cCCC"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--body_for_true__body_for_false
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--body_for_true
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--body_for_false
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenELSE__statement_in_while_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenELSE
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"Else"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement_in_while_body
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenGOTO
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"Goto"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"cALU"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenSEMICOLON
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--";"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement____iteration_after_two
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--output__first_part
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenPUT
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"Print"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--output__second_part
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--expression
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"1"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement____iteration_after_two
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"eNAS"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenCOLON
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--":"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--statement
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--input__first_part
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenGET
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"Scan"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONBEGIN
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"("
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--input__second_part
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--ident
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--"aAAA"
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--tokenGROUPEXPRESSIONEND
+    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |--")"
+    |    |    |    |--tokenEND
+    |    |    |    |    |--"Finish"
