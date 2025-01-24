@@ -1,0 +1,28 @@
+image: gcc:latest  # Використовуємо Docker-образ з компілятором GCC
+
+stages:
+  - build
+  - test
+  - deploy
+
+# Етап побудови
+build:
+  stage: build
+  script:
+    - mkdir build
+    - cd build
+    - cmake ..
+    - make
+
+# Етап тестування (якщо у вас є юніт-тести)
+test:
+  stage: test
+  script:
+    - cd build
+    - ./run_tests  # Команда для запуску тестів, змінити на свою
+
+# Етап деплою (наприклад, якщо хочете деплоїти проект на сервер)
+deploy:
+  stage: deploy
+  script:
+    - echo "Deploying application..."  # Замінити на ваш процес деплою
